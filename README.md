@@ -1,1 +1,2 @@
-# calculadora-pen
+# calculadora
+calculadora pendulo simples

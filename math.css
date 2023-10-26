@@ -1,0 +1,27 @@
+body {
+    background-color: #1786b1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #1786b1;
+    text-align: center;
+    margin: 50px;
+}
+
+#length, #position, #velocity, #acceleration {
+    width: 100px;
+}
+
+#calculate {
+    font-size: 35px;
+    color;color: mediumorchid; 
+    border:rgb(255, 4, 209);
+    cursor: pointer;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+

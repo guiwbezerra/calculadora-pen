@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Calculadora de Pêndulo Simples</title>
+  <link rel="stylesheet" href="math.css">
+</head>
+<body>
+ <div class="container">
+ <h1>Calculadora de Pêndulo Simples</h1>
+ <label for="length">Comprimento do fio (metros): </label>
+ <input type="number" id="length" step="0.01">
+ <br>
+ <label for="position">Posição inicial (metros): </label>
+<input type="number" id="position" step="0.01">
+ <br>
+ <label for="velocity">Velocidade inicial (metros/segundo): </label>
+<input type="number" id="velocity" step="0.01">
+ <br>
+ <label for="acceleration">Aceleração (metros/segundo²): </label>
+ <input type="number" id="acceleration" step="0.01">
+ <br>
+ <button id="calculate">Calcular</button>
+<div id="result"></div>
+</div>
+
+ <script src="math.js"></script>
+</body>
+</html>
